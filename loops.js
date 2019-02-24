@@ -7,7 +7,6 @@ function forLoop(list) {
     }
   } 
 }
-return list
 
 function whileLoop(numero) {
   while (numero > 0) {
