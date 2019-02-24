@@ -1,4 +1,11 @@
 function forLoop(list) {
+  for (let i = 0; i < 25; i + 1) {
+    if (i === 1) {
+      list = [...list, 'I am 1 strange loop.'];
+    } else {
+      list = [...list, 'I am ${i} strange loops.'];
+    }
+  } 
 }
 
 function whileLoop(numero) {
