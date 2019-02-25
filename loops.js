@@ -5,9 +5,9 @@ function forLoop(list) {
     } else {
       list = [...list, 'I am ${i} strange loops.'];
     }
-  } 
+  }
+  return list
 }
-return list
 
 function whileLoop(numero) {
   while (numero > 0) {
