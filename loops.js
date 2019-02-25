@@ -3,7 +3,7 @@ function forLoop(list) {
     if (i === 1) {
       list = [...list, 'I am 1 strange loop.'];
     } else {
-      list = [...list, `I am i strange loops.`];
+      list = [...list, `I am ${i} strange loops.`];
     }
   }
   return list
